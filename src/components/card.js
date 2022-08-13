@@ -9,14 +9,14 @@ export default function Card() {
             <div className="card--stats">
                 <img src={star} alt="" className="card--star"/>
                 <span>5.0</span>
-                <span>(6) *</span>
-                <span>USA</span>
+                <span className="gray">(6) *</span>
+                <span className="gray">USA</span>
             </div> 
             <p>
                 Life lessons with Katie Zaferes
             </p>
             <p>
-                From $136 / person
+                <span className="bold">From $136</span> / person
 
             </p>
 
